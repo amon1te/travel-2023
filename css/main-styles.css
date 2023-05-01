@@ -1,0 +1,507 @@
+* {
+    font-family: 'Readex Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(255, 255, 255);
+}
+
+.main-page {
+    width: 100%;
+    height:1300px;
+    background: rgba(0,0,0,0.5)url(/images/146815-mountainous_landforms-mountain_challenges-sky-trekking-mountain_range-1920x1080.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-blend-mode: darken;
+    position: relative;
+}
+
+.event {
+    width: 100%;
+    height: 1000px;
+}
+
+#star {
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 8%;
+    width: 29vh;
+}
+
+.main-page h1, #first {
+    color: white;
+    position: relative;
+    margin-left:15%;
+    top: 20%;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight:lighter;
+    overflow: hidden;
+
+}
+
+.main-page h1 {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight:400;
+    margin-bottom: 40px;
+    overflow: hidden;
+
+}
+
+.main-page #first{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight:400;
+    overflow: hidden;
+}
+
+.mytabs {
+    position: relative;
+    margin-left: 15%;
+    top: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    background: transparent;
+    color: black;
+    font-family: 'Readex Pro', sans-serif;
+    overflow: hidden;
+
+}
+
+
+.mytabs input[type="radio"] {
+    display: none;
+}
+
+.mytabs label {
+    padding: 25px;
+    background: #cccccc;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 40px;
+    background: #fff;
+    order: 1;
+    display: none;
+    
+}
+
+.mytabs .tab select {
+    width: 400px;
+    min-height: 40px;
+    border-width: 0px 0px 1px 0px;
+    font-size:20px;
+    color:rgb(90, 90, 90);
+}
+
+
+.mytabs .tab h2 {
+    font-size: 2em;
+}
+
+.mytabs input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: white;   
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.search {
+    font-size: 18px;
+    margin-left: 70px;
+    color: white;
+    padding: 10px 50px;
+    min-width: 300px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s all ease-in-out 0s;
+    overflow: hidden;
+    z-index: 0;
+    border: 0px;
+    background-color: #ff7e5b;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.title1 {
+    color: black;
+    padding-top: 2%;
+    position: relative;
+    margin-left: 25%;
+    padding-bottom: 100px;
+}
+
+.title1 h1 {
+    font-weight: 300;
+    font-size: 6.5rem;
+}
+
+.event .h2 {
+    width: 40%;
+    position: relative;
+    left: 25%;
+    top: 3%;
+}
+
+.event h2 {
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.card-event {
+    border: 2px solid grey;  
+    width: 800px;
+    border-radius: 40px;
+    padding: 40px;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    background-color: white;    
+}
+
+#ski {
+    position: absolute;
+    left: 5%;
+    width: 40%;
+}
+
+.card-event h1{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.row1 {
+    justify-content: space-evenly;
+}
+
+.row2 {
+    margin-top: 30px;   
+    text-align: center;
+}
+
+.circles {
+    display: flex;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    margin-inline: 15px;
+    border-radius: 50%;
+    background: rgb(201, 201, 201);
+}
+
+.row1 {
+    display: flex;
+}
+
+.card-event h3 {
+    font-size: 20px;
+    color:rgb(90, 90, 90);
+    font-weight: 300;
+}
+
+
+.main-page-2 {
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color:white;
+    background-position: center center;
+}
+
+.main-page-2:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    content: '';
+}
+
+
+.title2 {
+    background-color: #084c5c;
+    color: white;
+    padding-top: 2%;
+    position: relative;
+    padding-left: 25%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+.title2 h1 {
+    font-weight: 300;
+    font-size: 6.5rem;
+}
+
+#skew1:after {
+    transform-origin: left bottom;
+    transform: skewY(3deg);
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+
+}
+.card{
+    background-color: #FFF;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    border-radius: 25px;
+}
+
+.card-image{
+    position: relative;
+    height: 300px;
+    width: 330px;
+    border-radius: 25px;
+    background: #FFF;
+
+}
+.card-image .card-img{
+    border-radius: 25px;
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #ff663c;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: #ff501f;
+}
+
+.swiper-navBtn{
+    color: white;
+    transition: scale 2s ease;
+}
+.swiper-navBtn:hover{
+    transform: scale(1.1);
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 35px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-pagination-bullet{
+    background-color: white;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .swiper-navBtn{
+        display: none;
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;    
+}
+
+.wrapper {
+    margin: 270px auto;
+    padding: 20px;
+    background: #e7e7e7;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.wrapper h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.wrapper .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;    
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.wrapper .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.wrapper .content h1, h2, p {
+    padding: 10px;
+}
+
+.roww1 {
+    display: flex;
+    align-items: center;
+}
+
+.five-stars {
+    width:fit-content;
+    position: absolute; 
+    left: 200px;
+    top: 130px;
+}
+
+#trash {
+    margin-left: 480px;
+}
+
+.roww1 h1 {
+    margin-left: 20px;
+}
+
+.popup {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main-page-3 {
+    padding-top: 200px;
+    height: 1000px;
+}
+
+.container1 {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .slide-container1 {
+    margin: 0 30px;
+    overflow: hidden;
+  }
+  .card1 {
+    background: #fff;
+    border-radius: 8px;
+  }
+  .card1 .image-box1 {
+    height: 200px;
+  }
+  .card1 .image-box1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  .card1 .profile-details1 {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 15px;
+  }
+  .card1 .profile-details1 img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .profile-details1 .name1 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .profile-details1 .job1 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #4d4d4d;
+  }
+  
+  .swiper-navBtn {
+    color: #000;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 50%;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after {
+    font-size: 18px;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #000;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .swiper-navBtn {
+      display: none;
+    }
+  }
